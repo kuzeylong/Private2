@@ -31,9 +31,9 @@ public class TechDocsPage extends BasePage {
     }
 
     public void scrollToElementUsingActions(By locator) {
-        WebElement element = driver.findElement(locator); // Öğeyi bul
+        WebElement element = driver.findElement(locator);
         Actions actions = new Actions(driver);
-        actions.moveToElement(element).perform(); // Öğeye kaydır
+        actions.moveToElement(element).perform();
         System.out.println("Scrolled to element: " + locator);
     }
 
