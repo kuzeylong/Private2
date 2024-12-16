@@ -1,0 +1,4 @@
+runners\TestRunner.class
+stepDefinitions\SearchSteps.class
+stepDefinitions\CommonSteps.class
+stepDefinitions\TechDocsSteps.class
